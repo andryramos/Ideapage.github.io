@@ -1,0 +1,235 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Idea Page</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    
+  />
+  <link rel="stylesheet" href="styles/Style2.css">
+</head>
+<body>
+  <nav class="Navbar">
+    <div class="container">
+      <div class="Logo">Idea Page</div>
+
+      <div id="menu" class="menu">
+        <header class="inline">
+          <div class="Logo">Idea Page</div>
+          <button
+            id="closeMenuBtn"
+            title="Close Menu"
+            aria-label="Close Menu"
+            class="NavButton"
+          >
+            <i class="ri-close-line"></i>
+          </button>
+        </header>
+
+        <a href="#" class="NavLink">Principal</a>
+        <a href="#schedules" class="NavLink">Novedades</a>
+        <a href="#plans" class="NavLink">Planes</a>
+        <a href="#about" class="NavLink">Nosotros</a>
+      </div>
+
+      <button
+        id="openMenuBtn"
+        title="Open Menu"
+        aria-label="Open Menu"
+        class="NavButton"
+      >
+        <i class="ri-menu-line"></i>
+      </button>
+    </div>
+  </nav>
+  <main>
+    <section id="home">
+      <div class="hero">
+        <div class="visual">
+          <picture>
+            <source
+              srcset="
+              Assets/Intro3.jpeg
+              "
+              type="image/avif"
+              media="(width > 1024px)"
+            />
+            <source
+              srcset="
+                Assets/Intro3mobile.jpeg
+              "
+              type="image/avif"
+            />
+            <source
+              srcset="
+                Assets/Intro3.jpeg
+              "
+              media="(width > 1024px)"
+              type="image/webp"
+            />
+            <img
+              src="Assets/Intro3.jpeg"
+              alt="Futuro" 
+            />
+          </picture>
+        </div>
+
+        <div class="content">
+          <h1>Bienvenido Al Futuro</h1>
+          <div class="wrapper">
+            <a href="https://silty-definition.000webhostapp.com/index.php" class="LinkButton Primary"> Registrate Aqui </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="discover" class="fold">
+        <div class="subject">
+          <p>
+            ¡Es un nuevo día,
+            <span style="color: var(--brand-1)"
+              >una nueva oportunidad para conectar, compartir y crecer en nuestra red social! Abraza la energía de la comunidad,</span
+            >
+            siente la pasión y conquista tus metas con determinación inquebrantable. Juntos, esculpimos la mejor versión de nosotros mismos. ¡Únete y comienza tu viaje hacia el éxito hoy mismo!
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedules" class="schedule">
+      <div class="subject">
+        <div class="container">
+          <div class="table-wrapper">
+            <h2>Caracteristicas</h2>
+            <table>
+              <tr>
+                <th>Mejora</th>
+                <th>Novedades</th>
+                <th>Calificacion</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Imagenes Con I.A</td>
+                <td>5 Estrellas </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Conectar socialmente</td>
+                <td>5 Estrellas</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Efectos Epicos</td>
+                <td>5 Estrellas</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Mejor Estilo</td>
+                <td>5 Estrellas</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Mas Organizado</td>
+                <td>5 Estrellas</td>
+              </tr>
+            </table>
+          </div>
+          <div class="table-wrapper">
+            <h2>Futura Implementaciones</h2>
+            <table>
+              <tr>
+                <th>Novedad</th>
+                <th>Tiempo</th>
+              </tr>
+              <tr>
+                <td>Mejor velocidad</td>
+                <td>Proximamente</td>
+              </tr>
+              <tr>
+                <td>Mejora De Algoritmo</td>
+                <td>Proximamente</td>
+              </tr>
+              <tr>
+                <td>Chat Por Voz</td>
+                <td>Proximamente</td>
+              </tr>
+              <tr>
+                <td>Videollamadas</td>
+                <td>Proximamente</td>
+              </tr>
+              <tr>
+                <td>Monetizacion</td>
+                <td>Proximamente</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="showcase">
+
+        <video autoplay loop muted poster="Assets/Ana.png" role="none">
+          <source src="Assets/social2.mp4" type="video/mp4" />
+        </video>
+        
+        <img src="https://raw.githubusercontent.com/mobalti/open-props-interfaces/main/landing-page-with-scroll-driven/assets/images/rhythm.png" alt="Rhythm" />
+      </div>
+    </section>
+
+    <section id="plans" class="cards">
+      <div class="subject">
+        <div class="container">
+          <a href="#" class="Card">
+            <i class="ri-trophy-line"></i>
+            <div>
+              <h2>Logros Empresariales</h2>
+              <ul>
+                <li>Tener una comunidad positiva</li>
+                <li>Poder apoyar a los usuarios</li>
+                <li>Buen desarrollo</li>
+              </ul>
+            </div>
+          </a>
+          <a href="#" class="Card">
+            <i class="ri-flag-2-line"></i>
+            <div>
+              <h2>Retos</h2>
+              <ul>
+                <li>LLegar a lo maximo </li>
+                <li>Sobrepasar las expectativa</li>
+                <li>Novedad constante</li>
+              </ul>
+            </div>
+          </a>
+          <a href="#" class="Card">
+            <i class="ri-team-line"></i>
+            <div>
+              <h2>Compartir Juntos</h2>
+              <ul>
+                <li>Comparte fotos con familiares y etiquetalas automaticamente!</li>
+                <li>Todos sabran lo que subes al instante</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div id="target-word">love</div>
+      <footer>
+        <p>
+          Registrate para estar al tanto de las novedades y el lanzamiento oficial
+          <a
+            href="https://silty-definition.000webhostapp.com/index.php"
+            style="color: var(--brand-1); text-decoration: none"
+            >Registro</a
+          >
+          de la pagina.
+        </p>
+      </footer>
+    </section>
+  </main>
+  <script src="scripts/script2.js"></script>
+</body>
